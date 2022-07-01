@@ -3,18 +3,13 @@ body {
 }
 
 h1 {
-    font-size: 50px;
     text-align: center;
+    font-size: 60px;
 }
 
-h2 {
-    color: royalblue;
-    font-size: 30px;
-}
-
-p {
-    background-color: lightblue;
-    font-size: 20px;
+h2{
+    font-size: 40px;
+    background-color: peru;
 }
 
 a {
@@ -22,15 +17,22 @@ a {
     font-size: 20px;
 }
 
-img {
-    border: 2px solid brown;
+p, img {
+    border: 3px solid peru;
 }
-table{
-    border: 1px solid brown;
-    background-color: lightblue;
+
+p, table {    
     font-size: 20px;
-     border-collapse: collapse;
 }
-td{
+
+table {
+    background-color: lightyellow
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
     border: 1px solid brown;
-} 
+    background-color:lightyellow;
+    text-align:center;
+}
